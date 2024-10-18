@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Saifullah Footwear Website
 
-## Getting Started
+This is a **Footwear Products Website** created using **Next.js**, **TypeScript**, and **Tailwind CSS**. The website displays a variety of footwear products, including casual shoes, sneakers, sandals, boots, and more. Users can browse the products and add them to the cart.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Dynamic Product Listing**: Displays a wide range of footwear products with images, names, and prices.
+- **Add to Cart**: Allows users to easily add products to the cart.
+- **Responsive Design**: The layout adjusts smoothly across devices, ensuring a seamless experience on desktop, tablet, and mobile devices.
+- **Interactive UI**: Hover effects on product cards provide a smooth, interactive experience.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js**: React framework for building fast and scalable web applications with server-side rendering and static site generation.
+- **TypeScript**: Used for type safety and better development experience.
+- **Tailwind CSS**: A utility-first CSS framework for styling the app quickly and efficiently.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Installation and Setup
 
-## Learn More
+To run this project locally, follow these steps:
 
-To learn more about Next.js, take a look at the following resources:
+1. **Clone the repository**:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   git clone https://github.com/Tahasaif3/3rd-Assignment-Website.git
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. **Navigate to the project directory**:
 
-## Deploy on Vercel
+   ```bash
+   cd 3rd-Assignment-Website
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. **Install dependencies**:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   ```bash
+   npm install
+   ```
+
+4. **Run the development server**:
+
+   ```bash
+   npm run dev
+   ```
+
+5. **Open the app in the browser**:
+
+   Navigate to [http://localhost:3000](http://localhost:3000) to see the website.
+
+
+## How It Works
+
+- The `products.tsx` page dynamically renders a list of footwear products.
+- Each product has a name, price, and image.
+- When users hover over a product, the card slightly enlarges, providing a visually appealing effect.
+- Users can click on the "Add to Cart" button to simulate adding items to their cart.
+
+## Live Demo
+
+Check out the live demo here: [Live Demo](your-live-demo-url)
+
+## Contributing
+
+Feel free to fork this project, open issues, and submit pull requests. Contributions are welcome!
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
